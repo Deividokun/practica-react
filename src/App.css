@@ -1,0 +1,33 @@
+button {
+  font-size: 45px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: rgb(9, 255, 0);
+  border: 2px solid black;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  font-weight: bolder;
+}
+button.restar {
+  background-color: rgb(224, 1, 1);
+}
+
+.app {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100svh;
+}
+
+.app > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
